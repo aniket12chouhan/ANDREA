@@ -1,0 +1,965 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Noto Serif', serif; */
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Copy\ of\ podcast.png );
+    background-position: center;
+    background-size: cover;
+}
+
+.main-nav {
+    display: flex;
+    padding: 10px 100px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu {
+    width: 88%;
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.search {
+    width: 5%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.menu p {
+    text-decoration: none;
+    color: yellow;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: -8px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.menu img {
+    width: 40px;
+    height: 30px;
+
+}
+
+.menu a {
+    color: rgb(134, 132, 132);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu button {
+    background-color: transparent;
+    border: none;
+    color: rgb(134, 132, 132);
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    cursor: pointer;
+}
+
+.search i {
+    width: 100%;
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.hero-section {
+    color: white;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 140%;
+}
+
+
+
+.hero-section h1 {
+    font-size: 45px;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading span h1 {
+    font-family: 'Noto Serif', serif;
+    margin-top: -10px;
+
+}
+
+.heading span h1:first-child {
+    background: -webkit-linear-gradient(269deg, #201818 0%, #6b6b6b 40%, rgba(133, 133, 133, 0.9) 70%, rgba(239, 239, 239, 0.59) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading span h1:nth-child(3) {
+    background: -webkit-linear-gradient(269deg, #201818 0%, #6b6b6b 40%, rgba(133, 133, 133, 0.9) 70%, rgba(239, 239, 239, 0.59) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-text span img {
+    width: 60%;
+
+}
+
+
+.bg-text h1 {
+
+    margin-top: -100px;
+    margin-left: 15px;
+
+    font-family: 'Rock Salt', cursive;
+}
+
+.text-section img {
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+}
+
+/* <section class="event-banner-white"> */
+
+.event-banner-white {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./img/events-banner\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 60px 40px;
+}
+
+.event {
+    width: 100%;
+}
+
+.event h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.event p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.group-of-img {
+    width: 100%;
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.motivated {
+    height: 100vh;
+
+    background-image: url(./img/g1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.text-1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.text-1 h1 {
+    font-size: 34px;
+}
+
+.text-1 button {
+    padding: 5px 15px;
+    background-color: yellow;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.text-1 span h1 {
+    color: rgb(255, 200, 0);
+    font-size: 38px;
+    font-family: 'Rock Salt', cursive;
+    margin-bottom: 20px;
+}
+
+.hard {
+    height: 100vh;
+
+    background-image: url(img/story_img4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-2 {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.text-2 h1 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 200px;
+}
+
+.text-2 button {
+
+    padding: 5px 15px;
+    background-color: yellow;
+    border: none;
+}
+
+.laugh {
+    background-image: url(./img/smile.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    padding-right: 40px;
+
+}
+
+.text-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.laugh h1 {
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.laugh h2 {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.love {
+    height: 100vh;
+    background-image: url(./img/bg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.love h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.love span h1 {
+    font-size: 42px;
+    font-family: 'Rock Salt', cursive;
+    color: yellow;
+
+}
+
+.love button {
+    padding: 5px 15px;
+    background-color: yellow;
+    border: none;
+}
+
+.search-bar {
+    min-height: 18vh;
+    display: flex;
+    background-color: rgb(255, 200, 0);
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 200px;
+}
+
+.text {
+    width: 500px;
+
+
+}
+
+.input-section {
+    width: 500px;
+
+
+
+
+}
+
+.input-section input {
+    width: 50%;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 2px 10px;
+}
+
+.input-section button {
+    height: 50px;
+    padding: 8px 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.featured {
+    min-height: 200vh;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fratured-art {
+    width: 600px;
+}
+
+.fratured-art h5 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.fratured-art h5 img {
+    width: 130px;
+}
+
+.fratured-art h1 {
+    font-style: italic;
+    font-size: 32px;
+
+}
+
+.days {
+    font-size: 15px;
+    color: rgb(255, 213, 0);
+    margin-bottom: 15px;
+}
+
+.fratured-art p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.fratured-art h6 {
+    margin: 30px 0px;
+}
+
+.fratured-art a {
+    text-decoration: none;
+    color: rgb(255, 200, 0);
+    letter-spacing: 0.8px;
+    font-size: 15px;
+}
+
+.fratured-art hr {
+    margin-bottom: 40px;
+}
+
+
+
+.fresh-clip {
+    width: 400px;
+}
+
+.fresh-clip h1 {
+    margin-top: -45px;
+    font-family: 'Rock Salt';
+
+}
+
+.fresh-clip p {
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.fresh-clip h6 {
+    color: rgb(255, 200, 0);
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+
+}
+
+.youtubeimg {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.youtube-section hr {
+    margin-bottom: 30px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(255, 200, 0);
+    padding: 10px 200px;
+}
+
+.icon-part {
+
+    width: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.icon-part span i {
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 400px;
+    text-align: end;
+}
+
+.subscribe button {
+    margin-left: 20px;
+    padding: 10px 40px;
+    border: none;
+
+}
+
+/* performance section  */
+
+.performance {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: rgb(255, 200, 0);
+}
+
+.marketing {
+
+    width: 600px;
+}
+
+.marketing h1 {
+    font-style: italic;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.popular {
+
+
+    width: 400px;
+}
+
+
+.marketing h6 {
+    font-weight: 100;
+}
+
+.marketing a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+}
+
+.marketing p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.marketing h5 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5px;
+}
+
+.marketing h5 img {
+    width: 120px;
+    margin-left: -5px;
+}
+
+.p-bg {
+    font-size: 38px;
+    margin-top: -100px;
+    font-family: 'Rock Salt';
+
+}
+
+.popular span img {
+    width: 220px;
+    margin-left: -20px;
+}
+
+.popular p {
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.popular h6 {
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.popular a {
+    color: white;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    text-decoration: none;
+
+
+}
+
+.popular img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.popular h5 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5px;
+}
+
+.popular h5 img {
+    width: 120px;
+    margin-left: -5px;
+}
+
+/* form section  */
+
+form {
+
+   min-height: 100vh;
+    padding: 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.form-section {
+    width: 600px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+   
+}
+
+.form-section h1 {
+    font-family: 'Rock Salt';
+    margin-top: -80px;
+    
+}
+
+.form-section img {
+    height: 80px;
+    width: 350px;
+    margin-left: -10px;
+}
+
+.form-section input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin: 25px 10px;
+    width: 40%;
+
+}
+
+.form-section input:focus {
+    outline: none;
+}
+
+.form-section button {
+    margin-left: 10px;
+    padding: 8px 30px;
+    border: none;
+    background-color: rgb(255, 200, 0);
+
+}
+
+.form-events {
+    width: 450px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-events h1 {
+    font-family: 'Rock Salt';
+    margin-top: -90px;
+    position: relative;
+    z-index: +1;
+    font-size: 28px;
+    
+}
+
+.form-events img{
+    height: 100px;
+    width: 20px;
+    margin-left: -10px;
+}
+.form-events h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.form-events span{
+    margin-top: 15px;
+}
+
+.form-events .data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(237, 189, 14);
+}
+
+.data p {
+    font-size: 15px
+}
+
+.data a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(237, 189, 14);
+
+}
+
+hr {
+    color: black;
+}
+
+
+.form-events h6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.form-events img {
+    margin-top: -30px;
+   width: 120px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 120px;
+    padding-left: 100px;
+}
+
+.copyright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.responsive {
+    display: none;
+}
+
+
+/* css for responsive part  */
+
+
+
+
+/* responsive section */
+
+@media(max-width:768px) {
+    .main-nav {
+        display: none;
+    }
+
+    .responsive {
+        width: 100%;
+        display: flex;
+        padding: 10px 40px;
+
+
+    }
+
+    .container {
+        height: 50vh;
+    }
+
+
+    .menu-icon {
+
+        width: 10%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .menu-icon i {
+        cursor: pointer;
+        font-size: 25px;
+        color: rgb(204, 204, 204);
+    }
+
+    .logo768 {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo768 img {
+        width: 18%;
+
+    }
+
+    /* nav bar complete  */
+    .hero-section {
+        color: white;
+        width: 100%;
+        height: 40vh;
+
+
+    }
+
+    .hero-section h1 {
+        font-size: 26px;
+    }
+
+    .bg-text h1 {
+
+        margin-top: -60px;
+        margin-left: 15px;
+
+
+
+    }
+
+    .text-section img {
+
+        width: 250px;
+        height: 50px;
+    }
+
+    .event-banner-white {
+        height: 50vh;
+    }
+
+    .event h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .event p {
+
+        font-size: 10px;
+
+    }
+
+    .group-of-img {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .motivated {
+        height: 50vh;
+    }
+
+    .hard {
+        height: 50vh;
+    }
+
+    .laugh {
+        height: 50vh;
+    }
+
+    .love {
+        height: 50vh;
+    }
+
+
+
+    .search-bar {
+        height: 100px;
+        padding: 10px 100px;
+    }
+
+    .featured {
+        padding: 100px;
+    }
+
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 200px;
+    }
+
+    .subscribe h2 {
+        font-size: 15px;
+
+    }
+
+    .subscribe button {
+        padding: 5px 10px;
+
+    }
+
+    .icon-part span i {
+        font-size: 20px;
+    }
+
+    .icon-part h2 {
+        font-size: 15px;
+    }
+
+    .performance {
+        padding: 20px 100px;
+    }
+    form {
+       
+        padding: 20px 50px;
+        
+    
+    }
+
+
+
+    footer{
+      
+        padding-left: 50px;
+    
+
+}
